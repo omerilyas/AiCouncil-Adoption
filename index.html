@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Mindset and Adoption Program</title>
+    <link rel="stylesheet" href="styles.css?v=20260613-2" />
+  </head>
+  <body>
+    <a class="skip-link" href="#program">Skip to main content</a>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">AI Council</p>
+        <h1>AI Mindset and Adoption Program</h1>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#program">Program</a>
+        <a href="#manager-sessions">Sessions</a>
+        <a href="#adoption-roadmap">Roadmap</a>
+        <a href="#manager-intake">Intake</a>
+        <a href="#admin">Admin</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="program">
+        <div class="hero-copy">
+          <p class="eyebrow">Manager-led adoption system</p>
+          <h2>Make responsible AI adoption a team operating practice.</h2>
+          <p>
+            The program helps managers identify where teams stand, what is blocking progress,
+            and what support is needed to make responsible AI usage part of daily execution.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#manager-intake">Submit team baseline</a>
+            <a class="button secondary" href="#admin">View admin dashboard</a>
+          </div>
+          <p class="demo-note">
+            Review version: data is stored only in this browser for demo purposes. The production
+            version should use authentication and a shared database.
+          </p>
+        </div>
+        <div class="signal-panel" aria-label="AI adoption command center preview">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">Adoption command center</p>
+              <h3>Manager inputs become leadership-ready actions.</h3>
+            </div>
+            <span class="live-pill">Live baseline</span>
+          </div>
+
+          <div class="metric-strip">
+            <div>
+              <strong id="heroTeamCount">0</strong>
+              <span>teams baselined</span>
+            </div>
+            <div>
+              <strong id="heroAvgMaturity">0.0</strong>
+              <span>avg maturity</span>
+            </div>
+            <div>
+              <strong id="heroUseCases">0</strong>
+              <span>use cases captured</span>
+            </div>
+            <div>
+              <strong id="heroTopBlocker">None</strong>
+              <span>top blocker</span>
+            </div>
+          </div>
+
+          <div class="operating-flow" aria-label="Adoption workflow">
+            <article>
+              <span>01</span>
+              <strong>Manager intake</strong>
+              <p>Team maturity, blockers, use cases, and 30-60 day commitments.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong>AI Council review</strong>
+              <p>Aggregate blockers, identify support needs, and prioritize enablement.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong>Leadership readout</strong>
+              <p>Heatmaps, scorecards, risks, and next-quarter adoption actions.</p>
+            </article>
+          </div>
+
+          <div class="preview-grid">
+            <div class="preview-card maturity-preview">
+              <div class="preview-title">
+                <strong>Maturity heatmap</strong>
+                <span>team view</span>
+              </div>
+              <div class="mini-heatmap">
+                <span class="heat-1">L1</span>
+                <span class="heat-2">L2</span>
+                <span class="heat-3">L3</span>
+                <span class="heat-2">L2</span>
+                <span class="heat-4">L4</span>
+                <span class="heat-3">L3</span>
+              </div>
+            </div>
+            <div class="preview-card blocker-preview">
+              <div class="preview-title">
+                <strong>Top blockers</strong>
+                <span>priority view</span>
+              </div>
+              <div class="mini-bars">
+                <div><span>Time</span><b style="--bar:82%"></b></div>
+                <div><span>Use cases</span><b style="--bar:68%"></b></div>
+                <div><span>Security</span><b style="--bar:44%"></b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Program pillars</p>
+          <h2>Five connected pillars turn adoption into an operating rhythm.</h2>
+        </div>
+        <div class="pillar-grid" id="pillarGrid"></div>
+      </section>
+
+      <section class="principles-section">
+        <div class="section-heading">
+          <p class="eyebrow">Operating principles</p>
+          <h2>The program is built around practical adoption, responsible use, and measurable impact.</h2>
+        </div>
+        <div class="principle-grid">
+          <article>
+            <span>01</span>
+            <h3>Mindset first</h3>
+            <p>Build confidence, trust, curiosity, and responsible experimentation before expecting broad usage.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Use-case led</h3>
+            <p>Anchor adoption in real workflows, recurring pain points, deliverables, and business outcomes.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Manager-owned</h3>
+            <p>Managers reinforce AI through team routines, development conversations, and priority setting.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Safe and responsible</h3>
+            <p>Teams need clarity on approved tools, data handling, accuracy checks, privacy, and security.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Measured by impact</h3>
+            <p>Track adoption, engagement, capability, team maturity, productivity, and business value.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="session-section" id="manager-sessions">
+        <div class="section-heading">
+          <p class="eyebrow">Manager engagement sessions</p>
+          <h2>Every manager conversation should produce a maturity baseline, blockers, use cases, and commitments.</h2>
+        </div>
+        <div class="session-layout">
+          <article class="agenda-panel">
+            <div class="panel-title">
+              <h3>30-minute session structure</h3>
+              <span>support conversation</span>
+            </div>
+            <div class="agenda-list">
+              <div><strong>5 min</strong><span>Context and purpose</span><p>Set the frame: listen and support, not audit.</p></div>
+              <div><strong>8 min</strong><span>Current state</span><p>Understand current usage, tools, and workflows.</p></div>
+              <div><strong>8 min</strong><span>Barriers and gaps</span><p>Identify mindset, time, confidence, tooling, and safety blockers.</p></div>
+              <div><strong>6 min</strong><span>Manager role</span><p>Discuss routines, development goals, and reinforcement.</p></div>
+              <div><strong>3 min</strong><span>Actions and next steps</span><p>Agree commitments and AI Council support needed.</p></div>
+            </div>
+          </article>
+          <article class="discussion-panel">
+            <div class="panel-title">
+              <h3>Discussion guide</h3>
+              <span>four focus areas</span>
+            </div>
+            <div class="question-grid">
+              <div><strong>Current adoption</strong><p>How is the team using AI today? Is usage broad or limited to a few people?</p></div>
+              <div><strong>Barriers and mindset</strong><p>What is stopping wider adoption: confidence, time, security, trust, or unclear use cases?</p></div>
+              <div><strong>Manager accountability</strong><p>How can AI become part of routines, objectives, development, and business reviews?</p></div>
+              <div><strong>AI Council support</strong><p>What examples, templates, office hours, demos, or guidance would help the team move faster?</p></div>
+            </div>
+          </article>
+        </div>
+        <div class="outcome-strip" aria-label="Desired outputs">
+          <span>Maturity rating</span>
+          <span>Top 2-3 blockers</span>
+          <span>Practical use cases</span>
+          <span>30-60 day commitments</span>
+          <span>Support required</span>
+          <span>Metrics input</span>
+        </div>
+      </section>
+
+      <section class="split-section">
+        <div>
+          <p class="eyebrow">Maturity path</p>
+          <h2>Managers can move teams forward one level at a time.</h2>
+          <p>
+            The goal is not to make every team advanced immediately. The goal is to understand
+            the current level and agree practical next actions.
+          </p>
+        </div>
+        <div class="maturity-ladder">
+          <div class="maturity-step level-1">
+            <span>1</span>
+            <strong>Awareness</strong>
+            <p>Team understands AI matters, but usage is limited.</p>
+          </div>
+          <div class="maturity-step level-2">
+            <span>2</span>
+            <strong>Experimentation</strong>
+            <p>Some individuals try AI, but usage is inconsistent.</p>
+          </div>
+          <div class="maturity-step level-3">
+            <span>3</span>
+            <strong>Adoption</strong>
+            <p>AI is used in regular workflows by multiple people.</p>
+          </div>
+          <div class="maturity-step level-4">
+            <span>4</span>
+            <strong>Embedded</strong>
+            <p>AI is part of routines, delivery, and development.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="accountability-section">
+        <div class="section-heading">
+          <p class="eyebrow">Accountability model</p>
+          <h2>Managers create adoption conditions, the AI Council provides the system, leadership removes barriers.</h2>
+        </div>
+        <div class="accountability-grid">
+          <article>
+            <h3>Managers own</h3>
+            <ul>
+              <li>Encourage responsible AI usage in day-to-day work.</li>
+              <li>Identify workflows where AI can help.</li>
+              <li>Make AI learning part of development conversations.</li>
+              <li>Remove time, confidence, and prioritization barriers.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>AI Council owns</h3>
+            <ul>
+              <li>Provide the adoption framework and enablement materials.</li>
+              <li>Run office hours, demos, and role-based sessions.</li>
+              <li>Consolidate manager feedback and blocker themes.</li>
+              <li>Recommend metrics, promotion, and IPF linkage.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Leadership owns</h3>
+            <ul>
+              <li>Reinforce AI adoption as a business priority.</li>
+              <li>Support policy, tooling, and enablement decisions.</li>
+              <li>Recognize teams demonstrating practical impact.</li>
+              <li>Align on growth and performance expectations.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="performance-section">
+        <div class="section-heading">
+          <p class="eyebrow">Growth and IPF alignment</p>
+          <h2>AI fluency should be framed as modern execution capability, not a standalone checkbox.</h2>
+        </div>
+        <div class="performance-layout">
+          <article class="positioning-panel">
+            <h3>Recommended positioning</h3>
+            <p>
+              AI fluency should support future growth and promotion conversations when employees
+              use AI responsibly to improve productivity, quality, customer outcomes, innovation,
+              collaboration, or team effectiveness.
+            </p>
+            <p>
+              The goal is not to reward tool usage alone. The goal is to recognize responsible
+              value creation.
+            </p>
+          </article>
+          <article class="ipf-panel">
+            <div class="ipf-row"><strong>Innovation</strong><span>Improves workflows or creates new ideas.</span></div>
+            <div class="ipf-row"><strong>Execution</strong><span>Increases speed, quality, or consistency.</span></div>
+            <div class="ipf-row"><strong>Collaboration</strong><span>Shares practices, prompts, templates, and lessons.</span></div>
+            <div class="ipf-row"><strong>Leadership</strong><span>Encourages responsible adoption and removes barriers.</span></div>
+            <div class="ipf-row"><strong>Business impact</strong><span>Demonstrates measurable improvement.</span></div>
+            <div class="ipf-row"><strong>Responsible use</strong><span>Applies AI safely and in line with guidance.</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="metrics-section">
+        <div class="section-heading">
+          <p class="eyebrow">Measurement system</p>
+          <h2>Success should be tracked across adoption, engagement, capability, and business impact.</h2>
+        </div>
+        <div class="metrics-grid">
+          <article><h3>Adoption</h3><p>Active users, training completion, teams with use cases, manager sessions, AI champions.</p></article>
+          <article><h3>Engagement</h3><p>Office hours participation, use cases submitted, shared prompts, community activity.</p></article>
+          <article><h3>Capability</h3><p>Confidence lift, maturity movement, responsible AI completion, reusable assets created.</p></article>
+          <article><h3>Business impact</h3><p>Time saved, manual effort reduced, quality improved, faster response times, better outcomes.</p></article>
+        </div>
+        <div class="scorecard-table" aria-label="Recommended scorecard">
+          <div class="scorecard-row header"><span>Metric</span><span>Cadence</span><span>Owner</span></div>
+          <div class="scorecard-row"><span>Manager sessions completed</span><span>Weekly during rollout</span><span>AI Council</span></div>
+          <div class="scorecard-row"><span>Teams with identified use cases</span><span>Monthly</span><span>AI Council + Managers</span></div>
+          <div class="scorecard-row"><span>AI confidence lift</span><span>Quarterly</span><span>AI Council</span></div>
+          <div class="scorecard-row"><span>Time saved or workflow improvement</span><span>Monthly / Quarterly</span><span>Managers</span></div>
+        </div>
+      </section>
+
+      <section class="roadmap-section" id="adoption-roadmap">
+        <div class="section-heading">
+          <p class="eyebrow">30 / 60 / 90-day activation plan</p>
+          <h2>The first 90 days should baseline maturity, activate teams, then embed measurement.</h2>
+        </div>
+        <div class="roadmap-grid">
+          <article>
+            <span>Days 0-30</span>
+            <h3>Understand and baseline</h3>
+            <ul>
+              <li>Run manager engagement sessions.</li>
+              <li>Capture maturity, blockers, and use cases.</li>
+              <li>Create adoption heatmap and initial metrics dashboard.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Days 31-60</span>
+            <h3>Enable and activate</h3>
+            <ul>
+              <li>Launch role-based enablement and office hours.</li>
+              <li>Identify AI champions.</li>
+              <li>Publish prompt templates and workflow examples.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Days 61-90</span>
+            <h3>Embed and measure</h3>
+            <ul>
+              <li>Review progress with managers.</li>
+              <li>Measure adoption and impact.</li>
+              <li>Finalize promotion/IPF recommendation and next-quarter roadmap.</li>
+            </ul>
+          </article>
+        </div>
+        <div class="leadership-ask">
+          <strong>Leadership ask</strong>
+          <p>Support manager engagement sessions, encourage practical use cases, reinforce responsible usage, connect AI fluency to development, and share success stories and blockers openly.</p>
+        </div>
+      </section>
+
+      <section class="artifact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Program artifacts</p>
+          <h2>The site turns the Markdown program into reusable operating assets.</h2>
+        </div>
+        <div class="artifact-grid">
+          <article><strong>Manager discussion guide</strong><span>Session agenda, focus areas, and desired outcomes.</span></article>
+          <article><strong>Use-case backlog</strong><span>Team-submitted opportunities for practical AI experiments.</span></article>
+          <article><strong>Prompt and workflow library</strong><span>Reusable examples from managers, champions, and AI Council demos.</span></article>
+          <article><strong>Responsible AI guidance</strong><span>Approved tool, data handling, accuracy, privacy, and security reminders.</span></article>
+          <article><strong>Office hours schedule</strong><span>Hands-on support for teams that need enablement or confidence building.</span></article>
+          <article><strong>AI champion roster</strong><span>Team-level owners who can model adoption and share lessons learned.</span></article>
+          <article><strong>Impact tracker</strong><span>Time saved, quality improved, reusable assets, and business outcomes.</span></article>
+          <article><strong>Promotion/IPF feedback summary</strong><span>Manager feedback and leadership decision points for growth alignment.</span></article>
+        </div>
+      </section>
+
+      <section class="communication-section">
+        <div class="section-heading">
+          <p class="eyebrow">Monthly staff package</p>
+          <h2>Leadership updates should connect adoption progress to action, not just activity.</h2>
+        </div>
+        <div class="communication-layout">
+          <article class="staff-outline">
+            <h3>Suggested staff slides</h3>
+            <ol>
+              <li>Why AI adoption matters now</li>
+              <li>AI Mindset and Adoption Program</li>
+              <li>Manager engagement approach</li>
+              <li>AI adoption maturity model</li>
+              <li>How we will measure success</li>
+              <li>Leadership ask</li>
+            </ol>
+          </article>
+          <article class="talk-track">
+            <h3>Talk track</h3>
+            <p>
+              AI adoption is a mindset and operating model shift. The AI Council can provide
+              the framework, enablement, examples, and metrics, but adoption will scale when
+              managers make AI part of team routines and development conversations.
+            </p>
+            <p>
+              The goal is not to make everyone an AI expert. The goal is to make responsible
+              AI usage a normal part of how we improve productivity, quality, and business outcomes.
+            </p>
+          </article>
+          <article class="next-steps">
+            <h3>Immediate next steps</h3>
+            <ol>
+              <li>Align on manager engagement structure.</li>
+              <li>Schedule manager conversations over the next two weeks.</li>
+              <li>Capture maturity, blockers, use cases, and support needs.</li>
+              <li>Consolidate findings into a heatmap and leadership readout.</li>
+              <li>Define initial AI fluency metrics.</li>
+              <li>Draft promotion and IPF linkage recommendations.</li>
+              <li>Prepare monthly staff slides using this program structure.</li>
+            </ol>
+          </article>
+        </div>
+      </section>
+
+      <section class="form-section" id="manager-intake">
+        <div class="section-heading">
+          <p class="eyebrow">Manager intake</p>
+          <h2>Capture the team baseline in one structured submission.</h2>
+        </div>
+
+        <form id="managerForm" class="intake-form">
+          <div class="form-subheading">
+            <span>1</span>
+            <div>
+              <h3>Current adoption</h3>
+              <p>Baseline how the team is using AI today and where usage is concentrated.</p>
+            </div>
+          </div>
+          <div class="form-grid">
+            <label>
+              Manager name
+              <input name="manager" type="text" placeholder="e.g. Allie Johnson" required />
+            </label>
+            <label>
+              Team name
+              <input name="team" type="text" placeholder="e.g. Customer Success Ops" required />
+            </label>
+            <label>
+              Team size
+              <input name="teamSize" type="number" min="1" max="500" value="12" required />
+            </label>
+            <label>
+              Approved tools currently used
+              <input name="approvedTools" type="text" placeholder="e.g. ChatGPT Enterprise, Copilot" required />
+            </label>
+            <label>
+              Current maturity
+              <select name="maturity" required>
+                <option value="1">Level 1 - Awareness</option>
+                <option value="2">Level 2 - Experimentation</option>
+                <option value="3">Level 3 - Adoption</option>
+                <option value="4">Level 4 - Embedded</option>
+              </select>
+            </label>
+            <label>
+              Adoption breadth
+              <select name="adoptionBreadth" required>
+                <option>Limited to a few individuals</option>
+                <option>Some repeatable workflows</option>
+                <option>Broad team usage</option>
+                <option>Embedded in operating rhythm</option>
+              </select>
+            </label>
+            <label>
+              AI confidence today
+              <select name="confidence" required>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+              </select>
+            </label>
+            <label>
+              Responsible-use confidence
+              <select name="responsibleConfidence" required>
+                <option>Needs clarity</option>
+                <option>Some confidence</option>
+                <option>Confident</option>
+              </select>
+            </label>
+            <label>
+              Training / guidance status
+              <select name="trainingStatus" required>
+                <option>Not started</option>
+                <option>In progress</option>
+                <option>Completed</option>
+              </select>
+            </label>
+            <label>
+              Most important support needed
+              <select name="support" required>
+                <option>Role-based training</option>
+                <option>Approved tool guidance</option>
+                <option>Prompt and workflow templates</option>
+                <option>Office hours / demos</option>
+                <option>Leadership guidance</option>
+              </select>
+            </label>
+            <label>
+              Expected impact area
+              <select name="expectedImpact" required>
+                <option>Time saved</option>
+                <option>Quality / consistency improved</option>
+                <option>Faster response times</option>
+                <option>Customer or stakeholder outcomes</option>
+                <option>Innovation / new workflows</option>
+              </select>
+            </label>
+            <label>
+              AI champion status
+              <select name="championStatus" required>
+                <option>Not identified yet</option>
+                <option>Identified</option>
+                <option>Needs AI Council support</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Top blockers</legend>
+            <p class="fieldset-help">Choose up to 3 blockers so the AI Council can prioritize support.</p>
+            <div class="checkbox-grid">
+              <label><input type="checkbox" name="blockers" value="Mindset or confidence" /> Mindset or confidence</label>
+              <label><input type="checkbox" name="blockers" value="Time and prioritization" /> Time and prioritization</label>
+              <label><input type="checkbox" name="blockers" value="Unclear use cases" /> Unclear use cases</label>
+              <label><input type="checkbox" name="blockers" value="Data / security concerns" /> Data / security concerns</label>
+              <label><input type="checkbox" name="blockers" value="Lack of manager reinforcement" /> Lack of manager reinforcement</label>
+              <label><input type="checkbox" name="blockers" value="Tool access issues" /> Tool access issues</label>
+            </div>
+          </fieldset>
+
+          <div class="form-subheading">
+            <span>2</span>
+            <div>
+              <h3>Actions, support, and metrics</h3>
+              <p>Capture the use cases, manager commitment, AI Council ask, and impact signals.</p>
+            </div>
+          </div>
+          <div class="form-grid">
+            <label class="wide">
+              Current AI usage
+              <textarea name="currentUsage" placeholder="Example: a few people use AI for meeting summaries and first drafts, but it is not yet part of regular team routines." required></textarea>
+            </label>
+            <label class="wide">
+              Top practical AI use cases
+              <textarea name="useCases" placeholder="Example: summarize customer notes, draft status updates, compare reports, create knowledge-base articles..." required></textarea>
+            </label>
+            <label class="wide">
+              Manager commitment for the next 30-60 days
+              <textarea name="commitment" placeholder="Example: identify two workflows for AI experimentation and share one use case in the next team meeting." required></textarea>
+            </label>
+            <label class="wide">
+              Specific AI Council ask
+              <textarea name="councilAsk" placeholder="Example: a short demo on approved data usage, two sample prompts for weekly reporting, and office hours for the team." required></textarea>
+            </label>
+            <label class="wide">
+              Metrics or impact signals to track
+              <textarea name="metricsInput" placeholder="Example: time saved in weekly reporting, quality of customer follow-ups, number of reusable prompts created." required></textarea>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button class="button primary" type="submit">Submit baseline</button>
+            <button class="button ghost" type="button" id="loadDemo">Load demo data</button>
+          </div>
+          <p class="status" id="formStatus" role="status"></p>
+        </form>
+      </section>
+
+      <section class="admin-section" id="admin">
+        <div class="section-heading">
+          <p class="eyebrow">Admin dashboard</p>
+          <h2>Turn manager inputs into heatmaps and adoption priorities.</h2>
+          <p>Demo-only admin gate for reviewing team baselines and leadership actions.</p>
+        </div>
+
+        <div class="login-panel" id="loginPanel">
+          <label>
+            Admin password
+            <input id="adminPassword" type="password" placeholder="Enter password" />
+          </label>
+          <button class="button primary" id="adminLogin" type="button">Unlock dashboard</button>
+          <p class="status" id="loginStatus" role="status"></p>
+        </div>
+
+        <div class="dashboard is-hidden" id="dashboard">
+          <div class="dashboard-actions">
+            <button class="button secondary" id="exportCsv" type="button">Export CSV</button>
+            <button class="button ghost" id="resetData" type="button">Reset demo data</button>
+          </div>
+
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <span>Teams baselined</span>
+              <strong id="teamCount">0</strong>
+            </div>
+            <div class="kpi-card">
+              <span>Average maturity</span>
+              <strong id="avgMaturity">0.0</strong>
+            </div>
+            <div class="kpi-card">
+              <span>Use cases captured</span>
+              <strong id="useCaseCount">0</strong>
+            </div>
+            <div class="kpi-card">
+              <span>Top blocker</span>
+              <strong id="topBlocker">None</strong>
+            </div>
+            <div class="kpi-card">
+              <span>Top support need</span>
+              <strong id="topSupport">None</strong>
+            </div>
+            <div class="kpi-card">
+              <span>AI champions identified</span>
+              <strong id="championCount">0</strong>
+            </div>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="dash-panel">
+              <div class="panel-title">
+                <h3>Team maturity heatmap</h3>
+                <span>Level 1 to 4</span>
+              </div>
+              <div id="heatmap" class="heatmap"></div>
+            </section>
+
+            <section class="dash-panel">
+              <div class="panel-title">
+                <h3>Blocker concentration</h3>
+                <span>Frequency by theme</span>
+              </div>
+              <div id="blockerBars" class="bar-list"></div>
+            </section>
+
+            <section class="dash-panel">
+              <div class="panel-title">
+                <h3>Maturity distribution</h3>
+                <span>Baseline spread</span>
+              </div>
+              <div id="maturityBars" class="bar-list"></div>
+            </section>
+
+            <section class="dash-panel">
+              <div class="panel-title">
+                <h3>Recent manager submissions</h3>
+                <span>Latest first</span>
+              </div>
+              <div id="submissionList" class="submission-list"></div>
+            </section>
+
+            <section class="dash-panel">
+              <div class="panel-title">
+                <h3>Support needs</h3>
+                <span>enablement demand</span>
+              </div>
+              <div id="supportBars" class="bar-list"></div>
+            </section>
+
+            <section class="dash-panel">
+              <div class="panel-title">
+                <h3>Commitment tracker</h3>
+                <span>30-60 day actions</span>
+              </div>
+              <div id="commitmentList" class="submission-list"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js?v=20260613-2"></script>
+  </body>
+</html>
